@@ -1,0 +1,367 @@
+/* Author:			Jose Arvizu                  */
+/* Date Written:	5/24/2020	                 */
+/* Description:		Taniti Design prototype CSS	 */
+
+#wrapper	{	width: 1200px;
+				margin: auto;
+			}
+/* Container for images */
+.imgcontain	{
+				position: relative;
+				text-align: center;
+				color: black;
+			}
+			
+.imgcenter	{
+				position: absolute;
+				top: 30%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 56px;
+			}
+
+
+fieldset	{
+				border-radius: 25px;
+				border-style: none;
+			}
+body		{
+				font-family: junctionregularRegular;
+			}
+header		{
+				text-align: center; 
+				margin-bottom: 20px;
+			}	
+nav			{
+				margin-bottom: 20px;
+				font-family: Impact;
+			}
+p			{	
+				margin-left: 20px;
+				margin-right: 20px;
+				font-size:20px;
+			}
+			
+ul 			{
+				list-style-type: none;
+				text-decoration: none;
+				margin: 0;
+				padding: 0;
+			}		
+		
+h1, h2, h3	{	
+				font-family: Impact;
+			}
+h2			{
+				padding: 10px;
+				text-align: center;
+			}
+h3			{
+				text-align: left;
+				margin: 20px;
+			}
+body		{	
+				background-color:  rgb(199,241,255);
+			}
+li a 		{
+
+				display: block;
+				width: 480px;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				background-color: #00bfff;
+				float: left;
+				display: block;
+				width: 185px;
+				padding: 0;
+				list-style-type: none
+			}
+
+a	span	{
+				line-height: 30px;	
+				font-size: 26px;
+			}							
+
+main		{	width: 100%;
+				background-color:  rgb(51, 153, 255); 
+				height: 315px;
+				float:left;
+				margin: 10px 0px 20px;
+				padding: 5px 0px;
+				border-radius: 25px;
+				border-style: solid;
+				border-color: rgb(0,0,0);
+			}
+
+aside		{	
+				background-color: rgb(51, 153, 255); 
+				margin: 10px 0px 20px;
+				padding: 5px 0px;
+				float: left;
+				width: 100%;
+				border-radius: 25px;
+				border-color: rgb(0,0,0);
+			}
+footer		{	text-align: center;
+				background-color: rgb(51, 153, 255);
+				float: left; 
+				height: 20px;
+				width: 100%;
+				padding-top: 5px;
+				border-radius: 25px;
+				
+				border-color: black;
+			}
+img			{
+				max-width: 100%;
+			}
+
+.img		{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 70%;
+				font-size: 20px;
+				height: 80%;
+			}
+/*These styles are for the home page */
+
+#imghome	{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 60%;
+				font-size: 20px;
+				height: 60%;
+			}
+#asidefullH {
+				width: 100%;
+				height: 120px;
+				text-align: center;
+			}
+
+a:link		{
+				color: rgb(0,0,0);
+			}
+a:visited	{
+				color: rgb(51,51,51)
+			}
+li	a:hover	{
+				color: rgb(255,255,255); /* neat hovering trick which switches the color when hovering in the navigation bar */
+				background-color: rgb(51,51,51);
+			}
+			
+figcaption	{
+				text-align: center;
+			}
+legend		{
+				font-family: Impact;
+				font-size: 20px;
+			}
+
+#contact	{
+				font-size: 20px;
+				margin-left: 50px;
+				height: 130px;
+			}
+.asideleft	{
+				
+				background-color:  rgb(51, 153, 255);
+				height: 315px;
+				float:left;
+				margin: 20px 0px 20px;
+				padding: 5px 0px;
+				border-radius: 25px;
+			}
+/* These boxes are for the travel page*/
+#asideleftT
+			{
+				background-color:  rgb(51, 153, 255);
+				height: 315px;
+				width: 320px;
+				float:left;
+				margin: 20px 20px 20px 0px;
+				padding: 5px 0px;
+				border-radius: 25px;		
+			}
+#asiderightT
+			{
+				background-color:  rgb(51, 153, 255); 
+				height: 315px;
+				width: 320px;
+				float:right;
+				margin: 20px 0px 20px 20px;
+				padding: 5px 0px;
+				border-radius: 25px;
+			}
+#asidemidT
+			{
+				background-color:  rgb(51, 153, 255); 
+				height: 315px;
+				width: 320px;
+				float:right;
+				margin: 20px 0px 20px 115px;
+				padding: 5px 0px;
+				border-radius: 25px;
+			}
+#asidefull 	{
+				width: 100%;
+				height: 140px;
+				text-align: center;
+			}
+.asidefullT {
+				width: 100%;
+				height: 230px;
+				text-align: center;
+			}
+#imghead	{
+				width: 60%;
+				height: 60%;
+			}
+/* These boxes are for the contact us page */
+#asideleftC	{
+				background-color:  rgb(51, 153, 255);
+				height: 390px;
+				width: 480px;
+				float:left;
+				margin: 20px 20px 20px 0px;
+				padding: 5px 0px;
+				border-radius: 25px;
+			}
+#asiderightC{
+				background-color:  rgb(51, 153, 255);
+				height: 390px;
+				width: 480px;
+				float:right;
+				margin: 20px 20px 20px 0px;
+				padding: 5px 0px;
+				border-radius: 25px;
+			}
+#asidefullC {
+				width: 100%;
+				height: 220px;
+				text-align: center;
+			}
+/* These boxes are for the about us page */
+#asidefullA {
+				width: 50%;
+				height: 440px;
+				margin: 20px 300px 20px;
+				left: 50%;
+			}
+#asidefullA2 {
+				width: 100%;
+				height: 230px;
+				text-align: center;
+			}
+
+/* This boxes are for the FAQ page */
+
+#asidefullF	{
+				height: 920px;
+				width: 100%;
+			}
+
+
+			/* Dropdown nav test, used in the Explore tab https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp  */
+.dropdown	{
+				overflow: hidden;
+				float: left;
+			}
+.dropdown .dropbtn 	{
+						
+					}
+.dropdown:hover .dropbtn 	{
+								background-color: red;
+							}
+.dropdown-content 	{
+						display: none;
+						position: absolute;
+						background-color: rgb(51,51,51);
+						min-width: 20px;
+						box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+						z-index: 1;
+					}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: rgb(51,51,51);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* This template I created was used for mobile design in mind, however, stuff things
+were giving me trouble and could not figure out what was wrong, so I left this out code out because it made the design work and not break */
+header		{ 	margin: 0px 0px 10px; }
+	ul 			{
+					margin-left: 50px;
+					padding: 0;
+				}	
+	li	a		{
+					float: left;
+					display: block;
+					width: 185px;
+					padding: 0;
+					list-style-type: none;
+					
+				}
+
+	main		{	
+					clear: left;
+					float: left;
+				}
+	aside		{	float: right; }
+	
+	article		{	margin: 0px 0px 0px;}
+	
+	aside, main	{	width: 450px;
+					height: 315px;
+					margin: 20px 0px 20px;
+				}
+	iframe		{
+					width: 200px;
+					height: 200px;
+					float: right;
+				}
+	
+	
+	footer		{	clear: both;
+					width: 100%;
+					
+					height: 20px;
+				}	
+	#header		{
+					width: 35%;
+				}
+	#movieR		{
+					width: 50%;
+				}
+	#left		{
+					border-radius: 25px 0px 0px 25px;
+				}
+	#right		{
+					border-radius: 0px 25px 25px 0px;
+				}	
+	#mapR		{
+					display: inline-block;
+					float: right;
+					max-width: 200px;
+					height: auto;
+					margin-right: 20px;
+					margin-left: 20px;
+				}			
+			
+			
+			
+			
+			
+			
